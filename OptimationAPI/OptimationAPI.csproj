@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OptimationAPI.Domain.Interfaces\OptimationAPI.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\OptimationAPI.DomainModel\OptimationAPI.Domain.Model.csproj" />
+    <ProjectReference Include="..\OptimationAPI.Model\OptimationAPI.ViewModel.csproj" />
+    <ProjectReference Include="..\OptiomationAPI.Service\OptimationAPI.Domain.Service.csproj" />
+  </ItemGroup>
+
+
+</Project>
