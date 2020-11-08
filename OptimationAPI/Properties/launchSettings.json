@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/expense",
+      "launchUrl": "api/expenses",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,7 +20,7 @@
     "OptimationAPI": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/expense",
+      "launchUrl": "api/expenses",
       "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

@@ -16,7 +16,7 @@ namespace OptimationAPI.Controllers
     
     [ApiController]
     [Produces("application/json")]
-    [Route("api/[controller]")]
+    [Route("api/expenses")]
     public class ExpenseController : ControllerBase {
 
         private readonly IExpenseService ExpenseService;
